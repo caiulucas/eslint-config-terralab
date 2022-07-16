@@ -63,6 +63,11 @@ module.exports = {
     },
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx', '.d.ts']
+      }
     }
   }
 };
