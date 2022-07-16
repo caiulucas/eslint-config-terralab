@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-terralab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configurations used by TerraLab.",
   "main": "index.js",
   "author": "Caio Lucas",
   "license": "MIT",
   "private": false,
   "repository": {
-    "url": "caiulucas/terralab-eslint-config"
+    "url": "caiulucas/eslint-config-terralab"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
