@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-terralab",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint configurations used by TerraLab.",
   "main": "index.js",
   "author": "Caio Lucas",
@@ -15,6 +15,7 @@
     "eslint": "^7.32.0 || ^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-typescript": "^3.2.7",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-n": "^15.2.4",
