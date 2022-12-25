@@ -4,6 +4,9 @@ module.exports = {
     es2021: true,
     jest: true
   },
+  globals: {
+    React: true
+  },
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
@@ -16,7 +19,9 @@ module.exports = {
       jsx: true
     },
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    project: './tsconfig.json',
+    tsconfigRootDir: './'
   },
   plugins: [
     'react',
@@ -65,9 +70,9 @@ module.exports = {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
     },
     'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        moduleDirectory: ['node_modules', 'src/']
+      typescript: {
+        alwaysTryTypes: true,
+        project: '<root>/tsconfig.json'
       }
     }
   }

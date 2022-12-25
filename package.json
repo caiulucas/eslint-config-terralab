@@ -1,13 +1,13 @@
 {
-  "name": "eslint-config-terralab",
-  "version": "1.0.3",
+  "name": "@caiulucas/eslint-config-terralab",
+  "version": "1.0.4",
   "description": "ESLint configurations used by TerraLab.",
   "main": "index.js",
   "author": "Caio Lucas",
   "license": "MIT",
   "private": false,
   "repository": {
-    "url": "caiulucas/eslint-config-terralab"
+    "url": "git+https://github.com/caiulucas/eslint-config-terralab.git"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
@@ -32,5 +32,18 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/caiulucas/eslint-config-terralab/issues"
+  },
+  "homepage": "https://github.com/caiulucas/eslint-config-terralab#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "terralab"
+  ]
 }
