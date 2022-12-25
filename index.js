@@ -70,6 +70,10 @@ module.exports = {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
     },
     'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        moduleDirectory: ['node_modules', 'src/']
+      },
       typescript: {
         alwaysTryTypes: true,
         project: '<root>/tsconfig.json'
