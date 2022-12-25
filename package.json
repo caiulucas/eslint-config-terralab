@@ -1,5 +1,5 @@
 {
-  "name": "@caiulucas/eslint-config-terralab",
+  "name": "eslint-config-terralab",
   "version": "1.0.5",
   "description": "ESLint configurations used by TerraLab.",
   "main": "index.js",
