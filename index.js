@@ -20,8 +20,6 @@ module.exports = {
     },
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: './tsconfig.json',
-    tsconfigRootDir: './'
   },
   plugins: [
     'react',
@@ -73,10 +71,6 @@ module.exports = {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
         moduleDirectory: ['node_modules', 'src/']
-      },
-      typescript: {
-        alwaysTryTypes: true,
-        project: '<root>/tsconfig.json'
       }
     }
   }

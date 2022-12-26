@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-terralab",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint configurations used by TerraLab.",
   "main": "index.js",
   "author": "Caio Lucas",
