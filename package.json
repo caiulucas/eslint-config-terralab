@@ -10,22 +10,21 @@
     "url": "git+https://github.com/caiulucas/eslint-config-terralab.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.30.6",
-    "@typescript-eslint/parser": "^5.30.6",
-    "eslint": "^7.32.0 || ^8.19.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-import-helpers": "^1.2.1",
-    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-import-helpers": "^1.3.1",
+    "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.8.1"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0 || ^8.19.0",
     "typescript": ">=4.0.0"
   },
   "peerDependenciesMeta": {
@@ -37,7 +36,6 @@
     "url": "https://github.com/caiulucas/eslint-config-terralab/issues"
   },
   "homepage": "https://github.com/caiulucas/eslint-config-terralab#readme",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
