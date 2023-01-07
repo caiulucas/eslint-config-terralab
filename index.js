@@ -11,6 +11,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
+    'plugin:jsx-a11y/recommended',
     'standard'
   ],
   parser: '@typescript-eslint/parser',
@@ -25,7 +26,8 @@ module.exports = {
     'react',
     'prettier',
     'eslint-plugin-import-helpers',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'jsx-a11y'
   ],
   rules: {
     'prettier/prettier': [
